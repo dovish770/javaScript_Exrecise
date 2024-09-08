@@ -78,7 +78,7 @@ const data = [
   // Exercise 1: Use the filter method to get all the friends of John Doe
 
   let freinds = data.filter(p => p.name == "John Doe").flat(l => l.friends)
-  console.log(friends)
+  // console.log(friends)
 
   // Exercise 2: Use the filter method to get all the people who live in New York
   
@@ -90,6 +90,8 @@ const data = [
   // Exercise 1: Use the map method to put the names of all the friends of John Doe in a single array (use also the flat method)
   
   // Exercise 2: Use the map method to get the full addresses (street, city, state, and zip) of all the people in the data array
+
+  const adressesArray = data.map(person => person.address)
   
   // Exercise 3: Use the map method to get the hobbies of all the people in the data array in a single array
   
